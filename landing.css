@@ -1,0 +1,163 @@
+/* Reset some default styles */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  #header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  #header nav {
+    display: flex;
+    margin-left:45%;
+    list-style: none;
+    justify-content: center;
+  }
+  
+  #header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin:10px;
+    padding: 8px;
+    list-style: none;
+    
+  }
+  
+  #main {
+    padding: 2rem;
+  }
+  
+  .hero {
+    background-image: url("myland.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .about {
+    padding: 2rem 0;
+    text-align: center;
+    background: linear-gradient(to right,rgb(240, 206, 145),rgb(236, 156, 212),rgb(250, 0, 204));
+  }
+  
+  .about h2 {
+    font-size: 2px;
+    margin-bottom: 1px;
+  }
+  
+  .about p {
+    font-size:20px;
+    font-weight:bold;
+
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+.box{
+    height:220px;
+    width: 100%;
+    background-color: whitesmoke;
+   
+    
+}
+.box h3{
+    font-weight: 500;
+}
+.logo{
+   
+    background-size:210px;
+    margin-right: 10%;
+    height:200px;
+    width: 200px;
+    float: right;
+   
+}
+.button{
+    background: linear-gradient(to right,rgb(235, 194, 117),rgb(251, 57, 177));
+    color: #fff;
+    padding:10px;
+    text-decoration: none;
+    border-radius:15px;
+    border: none;
+    margin: 2px 6px 4px 5px;
+    
+}
+.search{
+  margin-left:10%;
+  outline: none;
+  border: none;
+  width: 17%;
+  text-align: center;
+  border-radius: 8px;
+}
+.active{
+  color:black;
+  background:greenyellow;
+}
+#header nav a:hover{
+  
+  text-decoration: underline;
+  transition: 1s ease-in-out;
+}
+  
+h2{
+  
+  width: 10%;
+  border-radius: 10px;
+  background:#f2e5e5;
+  text-align: center;
+}
